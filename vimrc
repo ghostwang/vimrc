@@ -242,4 +242,4 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 
 
-
+autocmd FileType python set omnifunc=pythoncomplete#Complete
